@@ -1,0 +1,33 @@
+@font-face {
+    font-family: ML;
+    src: url('../font/Montserrat-ExtraLight.ttf');
+}
+
+body, div, main, section, h1, h2, h3, h4, h5, p, ul, input, form, textarea {
+    margin: 0;
+    padding: 0;
+    font-family: ML, Consolas, sans-serif;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+}
+
+ul {
+    list-style: none;
+}
+
+nav > a {
+    float: left;
+    margin-left: 15px;
+}
+
+nav > a:first-child {
+    margin-left: 0;
+}
+
+span {
+    display: inline-block;
+}
